@@ -201,12 +201,10 @@ if (
 
     try {
 
-      const response = await axios.post(
-        "http://localhost:11434/api/generate",
-        {
-          model: "llama3.2:3b",
-
-          prompt: `
+const response = await axios.post(
+  "/api/chat",
+  {
+    prompt: `
 
 You are Pooja Sukhdeve's Professional AI Portfolio Assistant.
 
@@ -240,15 +238,8 @@ User Question:
 ${currentMessage}
 
 `,
-
-          stream: false,
-
-          options: {
-            temperature: 0,
-            num_predict: 220,
-          },
-        }
-      );
+  }
+);
 
       setLoading(false);
 
@@ -265,7 +256,7 @@ ${currentMessage}
       setLoading(false);
 
       console.log(
-        "OLLAMA ERROR:",
+        "AI CHAT ERROR:",
         error.response?.data || error.message || error
       );
 
