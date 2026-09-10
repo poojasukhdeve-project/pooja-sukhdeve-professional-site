@@ -60,7 +60,7 @@ export default function Home() {
   <div className="flex flex-wrap justify-center md:justify-start gap-4 pt-4">
 
     <a
-      href="/resume.pdf"
+      href="#/resume"
       target="_blank"
       className="px-7 py-3 bg-black text-white rounded-xl hover:bg-gray-800 transition-all duration-300 hover:scale-105 shadow-md"
     >
@@ -139,19 +139,19 @@ ABOUT <span className="text-gray-400">ME</span>
 <div className="space-y-4 text-[16px] leading-6 text-gray-700">
 
   <p>
-    💻 Full-Stack Software Engineer & Data Analytics Enthusiast with a Master’s in Computer Science from Boston University. I enjoy building scalable web applications, analytics platforms, and intelligent systems that combine modern software engineering with data-driven insights.
+    💻 Data Analyst | AI & ML Enthusiast | MS Computer Science, Boston University
+I turn complex data into clear, decision-ready insights - combining financial analysis, machine learning, and full-stack engineering to build data-driven products that create real impact.
   </p>
 
   <p>
-    🚀 My experience includes developing full-stack applications, REST APIs, cloud-native systems, interactive dashboards, and machine learning solutions using technologies such as React, Next.js, Node.js, Python, TypeScript, SQL, MongoDB, PostgreSQL, and AWS.
+    📊 My experience spans financial and market analysis, valuation modeling, data pipelines, interactive dashboards, and machine learning solutions, using technologies such as Python, SQL, Pandas, NumPy, Power BI, Tableau, React.js, Node.js, MongoDB, PostgreSQL, and AWS.
   </p>
 
   <p>
-    📊 I have worked on projects involving financial analytics dashboards, healthcare predictive modeling, AI-powered applications, NLP chatbots, business intelligence systems, and interactive data visualization platforms.
-  </p>
+    🤖 I've worked on projects involving valuation and financial modeling, AI-powered chatbot applications, RAG pipelines, NLP systems, business intelligence dashboards, and large-scale data analytics pipelines processing 100K+ records.  </p>
 
   <p>
-    ⚡ Previously, I worked as a Software Developer Intern at ASVI Systems, where I developed AWS-based applications and implemented CI/CD pipelines that improved deployment efficiency and system reliability.
+    ⚡ Currently, I work as a Business Analyst Intern – Team Coordinator at AperioHub, where I coordinate cross-functional workstreams, conduct financial and market analysis, and build 3-scenario valuation models to support data-driven investment decisions. Alongside this, I serve as a Data Research Analyst at Boston University, developing accessible, inclusive Python curriculum for visually impaired learners.
   </p>
 
   <div>
@@ -161,6 +161,7 @@ ABOUT <span className="text-gray-400">ME</span>
 
     <ul className="list-disc pl-10 space-y-2">
       <li>Full-Stack Software Engineering</li>
+      <li>Financial & Market Analysis</li>
       <li>Data Analytics & Visualization</li>
       <li>Machine Learning & AI Applications</li>
       <li>Cloud Computing & Scalable Systems</li>
@@ -169,7 +170,7 @@ ABOUT <span className="text-gray-400">ME</span>
   </div>
 
   <p>
-    🌱 Currently seeking opportunities in Software Engineering, Data Analytics, and AI/ML roles where I can contribute to impactful products, solve challenging problems, and continue growing as an engineer.
+    🌱 Currently seeking opportunities in Data Analytics, Data Science, and AI/ML roles where I can apply my analytical rigor and technical skills to build impactful, data-driven products.
   </p>
 
 </div>
@@ -425,22 +426,6 @@ TOOLS & <span className="text-black">SOFTWARE</span>
     <p className="text-gray-300 text-sm">Project Management</p>
   </div>
 </div>
-
-{/* Trello */}
-<div className="flex items-center gap-4">
-  <div className="bg-white p-2 rounded-lg shadow">
-    <img
-      src={`${import.meta.env.BASE_URL}icons/icons8-trello-96.png`}
-      className="w-9 h-9"
-    />
-  </div>
-
-  <div>
-    <h3 className="text-2xl font-semibold">Trello</h3>
-    <p className="text-gray-300 text-sm">Project Management</p>
-  </div>
-</div>
-
 </div>
 
 </section>
@@ -619,22 +604,23 @@ Live Demo
 <div className="bg-white/10 backdrop-blur-lg border border-white/20 p-6 rounded-xl hover:scale-105 transition">
 
 <h3 className="text-2xl font-bold mb-2">
-Stock Momentum Analyzer
+SPY ETF Machine Learning Trading Strategy
 </h3>
 
 <p className="text-gray-300 mb-4">
-Full-stack financial analytics platform for stock momentum tracking, 
-technical indicator analysis, and portfolio visualization using React, 
-Node.js, MongoDB, and interactive market intelligence dashboards.
+Can machine learning beat the market? This project explores that 
+question by building a quantitative trading system using SPY ETF 
+data, technical indicators, and predictive models, with strategy 
+performance validated through backtesting.
 </p>
 
 <p className="text-sm text-gray-400 mb-4">
-React • Node.js • Express.js • MongoDB
+Python • Pandas • NumPy • Scikit-Learn • Random Forest • Linear Regression • Quantitative Finance • Algorithmic Trading • Backtesting
 </p>
 
 <div className="flex gap-4">
 <a
-href="https://github.com/poojasukhdeve-project/stock_momentum_analyzer"
+href="https://github.com/poojasukhdeve-project/SPY-ETF-Machine-Learning-Trading-Strategy"
 className="px-4 py-2 bg-white text-black rounded"
 >
 GitHub
@@ -977,7 +963,7 @@ className="w-16 mb-4"
 />
 
 <a
-href="/resume.pdf"
+href="#/resume"
 target="_blank"
 className="px-6 py-2 border border-gray-400 rounded-lg hover:bg-gray-100"
 >

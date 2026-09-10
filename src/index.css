@@ -19,3 +19,29 @@ html, body, #root {
 html {
   scroll-behavior: smooth;
 }
+
+/* Profile image zoom-in */
+.animate-fadeInLeft {
+  opacity: 0;
+  transform: scale(0.88);
+  animation: zoomIn 1s ease-out forwards;
+}
+
+/* Right-side content zoom-in */
+.animate-fadeInRight {
+  opacity: 0;
+  transform: scale(0.88);
+  animation: zoomIn 1s ease-out 0.15s forwards;
+}
+
+@keyframes zoomIn {
+  from {
+    opacity: 0;
+    transform: scale(0.70);
+  }
+
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}

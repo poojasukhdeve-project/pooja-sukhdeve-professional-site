@@ -1,6 +1,7 @@
 import { HashRouter, Routes, Route } from "react-router-dom";
 
 import Navbar from "./components/Navbar";
+import AIChatbot from "./components/AIChatbot";
 
 import Home from "./pages/Home";
 import Projects from "./pages/Projects";
@@ -30,6 +31,10 @@ export default function App() {
         <Route path="/contact" element={<Contact />} />
 
       </Routes>
+
+       {/* AI CHATBOT */}
+      <AIChatbot />
+
 
     </HashRouter>
 

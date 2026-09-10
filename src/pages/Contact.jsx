@@ -12,18 +12,24 @@ export default function Contact() {
 
     <div className="bg-[#f3f4f6] min-h-screen overflow-hidden">
 
-      {/* HERO SECTION */}
-      <div className="bg-gradient-to-r from-blue-900 via-indigo-800 to-purple-900 py-14 text-center">
+      {/* HEADER */}
+      <section className="relative overflow-hidden bg-gradient-to-r from-blue-950 via-indigo-900 to-purple-900 py-10 md:py-12">
 
-        <h1 className="text-4xl sm:text-5xl md:text-5xl font-bold text-white leading-tight">
-          CONTACT
-        </h1>
+        <div className="relative text-center px-6">
 
-        <p className="text-gray-300 mt-2">
-          Let’s connect and build impactful technology together
-        </p>
+          <h1 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-white tracking-tight">
+            CONTACT
+          </h1>
 
-      </div>
+          <p className="text-indigo-200 mt-2 text-sm md:text-base">
+            Let’s connect and build impactful technology together
+          </p>
+
+          <div className="mx-auto mt-4 w-12 h-1 bg-purple-400 rounded-full"></div>
+
+        </div>
+
+      </section>
 
       {/* MAIN CONTENT */}
       <div className="max-w-7xl mx-auto px-5 md:px-10 py-14 md:py-20 grid grid-cols-1 lg:grid-cols-2 gap-10 md:gap-14">
