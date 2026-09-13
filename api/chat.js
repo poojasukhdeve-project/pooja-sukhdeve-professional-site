@@ -1,4 +1,4 @@
-const MODEL = "llama-3.3-70b-versatile"; // fast, high TPM ceiling, plenty for constrained extraction/summarization
+const MODEL = "openai/gpt-oss-20b"; // Groq's current fast/cheap tier (llama-3.1-8b-instant & llama-3.3-70b-versatile were deprecated Aug 16, 2026)
 const MAX_RETRIES = 2;
 
 async function callGroq(prompt) {
