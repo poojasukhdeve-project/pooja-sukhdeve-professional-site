@@ -34,6 +34,8 @@ const quickButtons = [
   { label: "🧠 ML Engineer", question: "Which projects are most relevant for Machine Learning Engineer roles?" },
   { label: "🎓 Education", question: "What is her educational background?" },
   { label: "📄 Resume", question: "Do you have a resume position wise?" },
+  { label: "🏆 Certificates", question: "Tell me about her certifications and awards" },
+  { label: "📚 Publications", question: "Tell me about her publications" },
   { label: "📧 Contact", question: "How can I contact Pooja?" },
   { label: "🔗 GitHub", question: "Can provide GitHub link?" }
 ];
@@ -97,6 +99,15 @@ else if (
   q.includes("internship") ||
   q.includes("intern") ||
   q.includes("data research analyst") ||
+  q.includes("business analyst") ||
+  q.includes("team coordinator") ||
+  q.includes("aperiohub") ||
+  q.includes("asvi") ||
+  q.includes("tech zenesis") ||
+  q.includes("globalshala") ||
+  q.includes("interbeing") ||
+  q.includes("oceans software") ||
+  q.includes("ssit") ||
   q.includes("operations analyst") ||
   q.includes("software developer") ||
   q.includes("web developer") ||
@@ -104,19 +115,41 @@ else if (
 ) {
   context =
     portfolioData.match(
-      /WORK EXPERIENCE[\s\S]*?CONTACT INFORMATION/
+      /WORK EXPERIENCE[\s\S]*?CERTIFICATES/
     )?.[0] || portfolioData;
 }
 
-// ACHIEVEMENTS / PUBLICATIONS
+// CERTIFICATES
 else if (
-  q.includes("achievement") ||
+  q.includes("certificate") ||
+  q.includes("certification") ||
+  q.includes("hackathon") ||
+  q.includes("award") ||
+  q.includes("winner") ||
+  q.includes("aws academy") ||
+  q.includes("aws certif") ||
+  q.includes("credly")
+) {
+  context =
+    portfolioData.match(
+      /CERTIFICATES[\s\S]*?PUBLICATIONS/
+    )?.[0] || portfolioData;
+}
+
+// PUBLICATIONS
+else if (
   q.includes("publication") ||
   q.includes("published") ||
-  q.includes("hackathon") ||
-  q.includes("research")
+  q.includes("research paper") ||
+  q.includes("research") ||
+  q.includes("blog") ||
+  q.includes("medium") ||
+  q.includes("igi global")
 ) {
-  context = portfolioData;
+  context =
+    portfolioData.match(
+      /PUBLICATIONS[\s\S]*?CONTACT INFORMATION/
+    )?.[0] || portfolioData;
 }
 
 // TECHNICAL SKILLS
@@ -393,7 +426,7 @@ ${currentMessage}
   </div>
 
   <div className="text-center text-xs text-gray-400">
-    Ask about projects, skills, experience, AI, analytics, or education.
+    Ask about projects, skills, experience, certificates, publications, or education.
   </div>
 
 </div>

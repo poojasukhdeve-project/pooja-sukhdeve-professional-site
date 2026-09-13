@@ -51,13 +51,13 @@ Databases:
 MongoDB, PostgreSQL, MySQL, SQL, Supabase
 
 Artificial Intelligence & Machine Learning:
-Machine Learning, NLP, LLMs, Hugging Face, OpenAI APIs, PyTorch, Scikit-Learn, Random Forest, XGBoost, SHAP
+Machine Learning, NLP, LLMs, Hugging Face, OpenAI APIs, PyTorch, Scikit-Learn, Random Forest, XGBoost, SHAP, LangChain, RAG, Embeddings, Vector Databases, Ollama
 
 Data Analytics & Visualization:
 Power BI, Tableau, Excel, VBA, Pandas, NumPy, Data Visualization
 
 Cloud & DevOps:
-AWS, Docker, Git, GitHub, GitHub Actions
+AWS, Docker, Git, GitHub, GitHub Actions, CI/CD
 
 ==================================================
 PROJECT SUMMARY
@@ -78,6 +78,9 @@ Primary Technologies:
 React, Next.js, Node.js, Python, Flask, MongoDB,
 PostgreSQL, Supabase, AWS, Machine Learning,
 OpenAI APIs, Hugging Face, Tableau, Power BI
+
+Project Categories (as filterable on the live site):
+Full-Stack, AI & ML, Quant Finance, Data Analytics
 
 ==================================================
 PROJECTS
@@ -481,10 +484,10 @@ https://github.com/poojasukhdeve-project/NVIDIA-Stock-Price-Prediction-and-Time-
 
 --------------------------------------------------
 
-12. Netflix Analytics Dashboard
+12. Netflix Content Analytics & Visualization Dashboard using Tableau
 
 Description:
-Developed an interactive Tableau-based business intelligence dashboard to analyze Netflix's global content library. The dashboard provides insights into content distribution, genres, ratings, countries, release trends, and content types through advanced visualizations, enabling data-driven content analysis and storytelling.
+Developed an interactive Tableau-based business intelligence dashboard to analyze Netflix's global content library. The dashboard provides insights into content distribution, genres, ratings, countries, release trends, and content types through choropleth maps, bar charts, bubble charts, and area visualizations, enabling data-driven content analysis and storytelling.
 
 Technologies:
 Tableau
@@ -516,7 +519,7 @@ https://github.com/poojasukhdeve-project/Netflix-Data-Visualization-Dashboard-us
 
 --------------------------------------------------
 
-13. Adidas Sales Dashboard
+13. Adidas Interactive Sales Analytics Dashboard
 
 Description:
 Built an interactive Excel-based sales analytics dashboard to analyze Adidas retail performance across products, regions, sales channels, and time periods. Leveraged advanced Excel techniques, automation, and KPI reporting to provide actionable business insights for decision-making.
@@ -619,111 +622,327 @@ Data Analyst:
 WORK EXPERIENCE
 ==================================================
 
+Business Analyst Intern - Team Coordinator
+
+Aperiohub
+Sept 2026 – Ongoing
+
+Responsibilities:
+- Coordinate data tracking and reporting across 4 cross-functional workstreams, consolidating deliverables and synthesizing analytical findings to support data-driven project decision-making.
+- Conduct financial and market data analysis by collecting and structuring data from funding rounds, regulatory filings, market research sources, peer-company datasets, and industry benchmarks.
+- Build 3-scenario valuation models (Bull/Base/Bear) using EV/Revenue multiples and comparable-company analysis to quantify a range of financial outcomes.
+- Perform scenario and sensitivity analysis on valuation and return metrics across varying entry, exit, and holding-period assumptions to identify key value and risk drivers.
+- Benchmark financial metrics and valuation multiples against public-company comparables and recent IPO transactions to derive relative valuation insights.
+- Apply quantitative analysis and the VC valuation method to calculate implied entry valuations and evaluate target-return scenarios.
+- Collaborate with Business Quality, Market Sizing, and Risk teams to synthesize cross-functional analysis into data-backed BUY/HOLD/PASS investment recommendations.
+
+Technologies:
+Data Analysis, Financial Analysis, Financial Modeling, Quantitative Analysis, Valuation Modeling, Market Research, Data-Driven Decision Making, Business Analysis, Financial Valuation, Scenario Analysis, Competitive Benchmarking, Risk Analysis
+
+--------------------------------------------------
+
 Data Research Analyst
 
 Boston University
-September 2024 – Present
+Sept 2024 – Ongoing
 
 Responsibilities:
-- Developed Python learning materials and programming exercises for educational initiatives focused on accessibility and computer science concepts.
-- Created technical documentation and interactive educational content for visually impaired learners.
-- Designed data visualizations and analytical reports using Python and modern visualization libraries.
-- Conducted research on accessible software solutions and inclusive learning methodologies.
-- Collaborated with faculty and researchers on educational technology projects and curriculum development.
+- Develop and structure Python programming exercises and coding activities involving 1,000+ lines of code, applying data-driven learning approaches to improve conceptual understanding for visually impaired and non-traditional learners.
+- Translate complex Python and programming concepts into accessible visual and tactile learning representations, including structured diagrams, flowcharts, and screen-reader-friendly educational content.
+- Conduct research and iterative analysis on inclusive educational materials using Overleaf (LaTeX), ensuring accessibility compliance, clarity, and well-structured technical documentation.
+- Collaborate with faculty members and researchers to design, test, and refine accessible learning tools, effectively communicating technical Python concepts through evidence-based instructional design.
 
 Technologies:
-Python, Pandas, Matplotlib, Jupyter Notebook, Git, Technical Documentation, Data Visualization
+Python, Data Visualization, Accessibility Research, Technical Documentation, Curriculum Data Analysis, LaTeX/Overleaf
 
 --------------------------------------------------
+
 Operations Analyst
 
 Boston University Information Services & Technology (IS&T)
-May 2024 – October 2025
+May 2024 – Oct 2025
 
 Responsibilities:
-- Automated reporting processes and administrative workflows using Excel and data management tools.
-- Maintained inventory tracking systems and generated operational reports.
-- Provided technical support for software, hardware, and office systems.
-- Managed communication workflows and scheduling using Microsoft Outlook.
-- Assisted with process optimization initiatives to improve operational efficiency.
+- Managed 50+ daily emails in Outlook with 98% 24-hour response rate; coordinated multi-calendar scheduling for 3–5 team members with 20+ weekly meetings; executed advanced Excel functions (VLOOKUP, pivot tables, macros) on 1,000+ entry datasets, reducing monthly reporting time by 40% and data errors by 30% through systematic validation protocols. Maintained accurate employee onboarding and offboarding data, updating personnel records, tracking access and equipment requirements, and ensuring timely documentation throughout employee transitions.
+- Orchestrated distribution of 350+ SIS promotional materials via FedEx with full shipment tracking and delivery confirmation; coordinated conference technical arrangements including AV setup and equipment testing; optimized office supply inventory through tracking systems, reducing costs by 20% while maintaining zero stockouts.
+- Oversaw lifecycle management of 100+ documents with version control and digital filing systems, improving retrieval efficiency by 90%; facilitated internal/external stakeholder communications across email, phone, and virtual platforms as primary departmental contact point.
 
 Technologies:
-Microsoft Excel, VBA, Outlook, Data Reporting, Process Automation, Inventory Management
+Excel, Outlook, Workflow Automation, Technical Support
+
 --------------------------------------------------
-Software Developer Intern
+
+Software Developer Intern - AI & Full Stack
 
 ASVI Systems
-May 2025 – August 2025
+May 2025 – Aug 2025
 
 Responsibilities:
-- Developed responsive full-stack web applications using React.js, Next.js, and TypeScript.
-- Built RESTful APIs and backend services using Node.js and Flask.
-- Designed and managed databases using MongoDB and PostgreSQL.
-- Implemented authentication systems and secure API integrations.
-- Containerized applications using Docker and automated deployment pipelines using GitHub Actions.
-- Collaborated in Agile development environments and participated in code reviews and feature implementation.
+- Designed and developed 3 AI-powered chatbot applications using Python, OpenAI GPT, Hugging Face, LangChain, and Ollama, delivering context-aware conversational experiences across full-stack applications.
+- Built Retrieval-Augmented Generation (RAG) pipelines using LangChain, embeddings, and vector databases, optimizing semantic search and document retrieval to improve relevant retrieval accuracy by 20%.
+- Engineered NLP and LLM pipelines for document preprocessing, chunking, embedding generation, semantic search, prompt engineering, and response generation, reducing manual information-search time by 40%.
+- Integrated and optimized OpenAI GPT, Hugging Face, and Ollama models, refining prompts, retrieval strategies, and inference workflows to reduce average chatbot response latency by 25%.
+- Developed and optimized RESTful APIs using Python/Flask and Node.js/Express.js, connecting LLM/RAG services with React.js/Next.js applications and MongoDB/PostgreSQL, improving API response time by 20%.
+- Deployed AI-powered full-stack applications on AWS using Docker, GitHub, and CI/CD workflows, automating build and deployment processes and reducing deployment time by 30%.
+- Implemented authentication, API validation, error handling, debugging, and database optimization across frontend, backend, and AI components to improve application reliability and maintainability.
 
 Technologies:
-React.js, Next.js, TypeScript, Node.js, Flask, MongoDB, PostgreSQL, Docker, GitHub Actions, REST APIs
+Python, OpenAI GPT, Hugging Face, LangChain, RAG, NLP, Embeddings, Vector Databases, Ollama, AWS, Flask, React.js, Next.js, Node.js, Express.js, MongoDB, PostgreSQL, REST APIs, Docker, GitHub, CI/CD
 
 --------------------------------------------------
+
 Data Analyst
 
 Tech Zenesis
 Oct 2022 – Dec 2023
 
 Responsibilities:
-- Analyzed datasets to identify trends and generate business insights.
-- Built interactive dashboards and reports for data-driven decision-making.
-- Performed data cleaning, transformation, and exploratory data analysis.
-- Created visualizations and KPI reports for business stakeholders.
+- Built end-to-end data analytics pipelines using Python, Pandas, NumPy, and SQL to clean, transform, and analyze 100K+ records from multiple data sources for downstream reporting and analytics.
+- Developed and optimized complex SQL queries using CTEs, joins, subqueries, window functions, and aggregations to analyze transactional data and generate business-critical KPIs.
+- Designed 5+ interactive Power BI dashboards to monitor operational KPIs, trends, and performance metrics, enabling stakeholders to make faster, data-driven decisions.
+- Automated data cleaning, transformation, and reporting workflows using Python and Pandas, reducing manual data-processing effort by approximately 30%.
+- Performed exploratory data analysis (EDA) and statistical analysis using Pandas, NumPy, Matplotlib, and Scikit-learn to uncover trends, correlations, anomalies, and actionable business insights.
+- Implemented data-quality and validation pipelines across SQL databases and REST API data sources, identifying missing values, duplicates, schema inconsistencies, and anomalous records before downstream analysis.
 
 Technologies:
-Python, SQL, Excel, Tableau, Power BI, Pandas, NumPy
+Python, SQL, Power BI, Excel, Data Analysis, Statistical Analysis, Data Cleaning
+
 --------------------------------------------------
+
+Data Analyst Intern
+
+GlobalShala
+July 2022 – Sept 2022
+
+Responsibilities:
+- Analyzed and transformed 10,000+ data records from multiple sources using Python, Pandas, NumPy, and Excel, preparing structured datasets for analysis and reporting.
+- Performed exploratory data analysis (EDA) across 5+ datasets, identifying trends, correlations, anomalies, and data-quality issues using Pandas, NumPy, and Matplotlib.
+- Developed 3+ interactive dashboards and visual reports using Power BI, translating complex datasets into clear KPIs and actionable insights.
+- Wrote SQL queries using joins, aggregations, filtering, and subqueries to extract and analyze data for 5+ research and analytics requirements.
+- Built reusable Python data-cleaning workflows to identify missing values, duplicate records, outliers, and inconsistent formats, streamlining dataset preparation for downstream analysis.
+- Created 15+ charts and analytical visualizations using Matplotlib, Tableau, and Excel to communicate trends, distributions, and relationships to technical and non-technical audiences.
+- Collaborated on 5+ research and analytics initiatives, translating project requirements into data analysis, visualization, and dashboard solutions.
+
+Technologies:
+Python, SQL, Power BI, Excel, Data Analysis, Statistical Analysis, Data Cleaning, Pandas, NumPy, Matplotlib
+
+--------------------------------------------------
+
 Software Developer
 
 Interbeing Foundation
 Apr 2020 – Jun 2022
 
 Responsibilities:
-- Developed and maintained web applications and REST APIs.
-- Built responsive user interfaces and integrated backend services.
-- Collaborated with cross-functional teams to deliver scalable software solutions.
-- Participated in testing, debugging, and deployment activities.
+- Developed and maintained 5+ full-stack applications using Python (Django/Flask), Node.js (Express), and JavaScript, serving 10,000+ users and handling 50K+ monthly transactions with 99.9% uptime.
+- Led feature development in Agile sprints, collaborating with product managers and designers to gather requirements, write user stories, and deliver 30+ features that improved user engagement by 40%.
+- Built RESTful APIs and microservices with Node.js and Python, enabling seamless integration between frontend and backend systems while maintaining clean, well-documented code.
+- Optimized application performance through code refactoring and database query optimization, reducing page load times by 45% and improving server response time.
+- Participated in code reviews and pair programming, contributing to team knowledge sharing and maintaining high code quality standards across 100+ pull requests.
 
 Technologies:
-React.js, JavaScript, Node.js, Express.js, MongoDB, Git
+Python, JavaScript, React.js, Node.js, SQL, MongoDB, Git, RESTful APIs, Data Analysis, Agile
+
 --------------------------------------------------
-Web Developer
+
+Software Developer & Data Analyst
 
 Oceans Software Technologies
 Apr 2018 – Mar 2020
 
 Responsibilities:
-- Designed and developed responsive websites and web applications.
-- Implemented frontend interfaces and backend integrations.
-- Optimized application performance and improved user experience.
-- Worked closely with designers and stakeholders to deliver business requirements.
+- Developed and maintained 8+ data-driven banking web applications using HTML5, CSS3, JavaScript, PHP, and MySQL, supporting account management, loan processing, and transaction workflows for over 15,000 active users.
+- Wrote and optimized complex SQL queries (joins, filters, aggregations) across customer, account, loan, and transaction data, reducing average report generation time by 30% and supporting daily operational reporting for 3 business units.
+- Identified and resolved data inconsistencies and missing records across application and transactional datasets, improving data reliability and reducing manual reconciliation effort by roughly 20%.
+- Built 10+ dashboards, reports, and reusable UI components that transformed raw database records into actionable insights, used weekly by 25+ business stakeholders across operations and finance teams.
+- Conducted data validation and quality checks across frontend applications, REST APIs, and backend databases, ensuring consistent and accurate data processing across 5 integrated systems.
+- Partnered with development and business teams to translate requirements into database queries, application features, and reporting solutions, contributing to the on-time delivery of 8+ application releases.
+- Integrated web applications with MySQL/MongoDB databases and RESTful APIs, enabling reliable, real-time data flow and reducing data sync errors between systems by approximately 15%.
 
 Technologies:
-HTML5, CSS3, JavaScript, PHP, MySQL
+HTML5, CSS3, JavaScript, Responsive Design, Cross-browser Compatibility, jQuery, MySQL, MongoDB, PHP, Git
 
 --------------------------------------------------
 
-Software Trainee (Android Development)
+Software Trainee – Android Development
 
 SSIT Pvt Ltd
 Jun 2016 – Jun 2017
 
 Responsibilities:
-- Developed Android applications and implemented UI components.
-- Built application features using Java and Android SDK.
-- Performed debugging, testing, and application maintenance.
-- Learned software development principles, version control, and mobile application architecture.
+- Developed Android and iOS applications using Java and Android SDK.
+- Implemented RESTful APIs and optimized performance using SQLite databases.
+- Maintained code quality and version control using Git, JUnit, and Espresso.
 
 Technologies:
-Java, Android SDK, SQLite, XML, Git
+Java, Android SDK, SQLite, REST APIs, Git
+
+==================================================
+CERTIFICATES
+==================================================
+
+1. Boston University Hackathon 2024 — Winner (1st Place)
+
+Event:
+ABA@BU Hackathon, October 25–26, 2024 (BU MET Applied Business Analytics Program)
+
+Description:
+Secured 1st place in the Boston University Hackathon as a member of Team Blue Whale, which placed FIRST in Competition 2: Business Case Analysis, by developing a data-driven solution for business case analysis using advanced analytics techniques.
+
+--------------------------------------------------
+
+2. AWS Academy Cloud Foundations
+
+Issuer:
+AWS Academy
+
+Course hours completed:
+20 hours
+
+Issued on:
+04/17/2025
+
+Digital badge:
+https://www.credly.com/go/k7AQJkRr
+
+Description:
+Completed AWS Academy Cloud Foundations certification, gaining a strong understanding of cloud computing fundamentals including EC2, S3, IAM, and scalable cloud architecture principles.
+
+--------------------------------------------------
+
+3. AI-Powered Text Generation Portal (TextNova) — Build Fellowship Certificate
+
+Issuer:
+Open Avenues Foundation
+
+Duration:
+May 2026, 8 weeks
+
+Mentor:
+Uttara Ravi
+
+Certificate issue date:
+May 12, 2026
+
+Description:
+Developed TextNova, a GPT-style AI text generation platform, using nanoGPT, Flask, and Transformer-based NLP architecture with temperature-controlled generation, Top-k/Top-p sampling, and interactive full-stack web integration, as part of a structured Build Project led by industry mentor Uttara Ravi.
+
+--------------------------------------------------
+
+4. Personal Finance Tracker (Wallet Wizard) — Build Fellowship Certificate
+
+Issuer:
+Open Avenues Foundation
+
+Duration:
+April 2026, 8 weeks
+
+Mentor:
+Parug Demircioglu
+
+Certificate issue date:
+April 13, 2026
+
+Description:
+Developed Wallet Wizard, a personal finance tracking application, as part of a structured Build Project led by industry mentor Parug Demircioglu.
+
+--------------------------------------------------
+
+5. Data Visualization Virtual Internship
+
+Issuer:
+Illinois Tech | GlobalShala
+
+Duration:
+4 weeks
+
+Date of completion:
+November 11, 2022
+
+Description:
+Completed a 4-week Data Visualization Virtual Internship powered by GlobalShala in collaboration with Illinois Tech, gaining hands-on experience in data analysis, visualization, and data storytelling.
+
+--------------------------------------------------
+
+6. Project Management Virtual Internship
+
+Issuer:
+Illinois Tech | GlobalShala
+
+Duration:
+4 weeks
+
+Date of completion:
+March 1, 2023
+
+Description:
+Completed a 4-week Project Management Virtual Internship powered by GlobalShala in collaboration with Illinois Tech, gaining practical experience in project planning, execution, and team collaboration.
+
+--------------------------------------------------
+
+7. Cybersecurity: Defensive Hacking Virtual Internship
+
+Issuer:
+Illinois Tech | GlobalShala
+
+Duration:
+4 weeks
+
+Date of completion:
+March 1, 2023
+
+Description:
+Completed a 4-week Cybersecurity: Defensive Hacking Virtual Internship powered by GlobalShala in collaboration with Illinois Tech, gaining hands-on experience in vulnerability analysis and defensive security techniques.
+
+==================================================
+PUBLICATIONS
+==================================================
+
+1. Digitally Enabled Infrastructure
+
+Publisher:
+IGI Global, Hershey, Pennsylvania, USA
+
+Date:
+May 11, 2021
+
+Type:
+Featured, Research Paper (book chapter)
+
+Summary:
+Explores how digital infrastructure expands knowledge-sharing and information management in education, addressing ICT infrastructure gaps and training/awareness issues, and presents a framework for smart education and digital infrastructure development in classrooms and institutions.
+
+--------------------------------------------------
+
+2. Implementing Augmented Reality Into Immersive Virtual Learning Environments
+
+Publisher:
+IGI Global, Hershey, Pennsylvania, USA
+
+Date:
+December 10, 2020
+
+Type:
+Research Paper (book chapter)
+
+Summary:
+Discusses the use of augmented reality (AR) in immersive learning, covering background on AR in education, the design process for AR-based immersive learning environments, and an evaluation of the benefits of immersive learning and AR.
+
+--------------------------------------------------
+
+3. How City Caravan Helped Sharpen My Research in Nagpur
+
+Publisher:
+Medium (Blog)
+
+Date:
+November 19, 2019
+
+Type:
+Blog
+
+Summary:
+A personal blog reflecting on a water-quality research project about the Nag River in Nagpur, India, and how participating in the City Caravan program shaped the author's research approach and perspective.
 
 ==================================================
 CONTACT INFORMATION
