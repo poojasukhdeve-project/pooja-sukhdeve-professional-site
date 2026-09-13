@@ -12,7 +12,8 @@ async function callGroq(prompt) {
       model: MODEL,
       messages: [{ role: "user", content: prompt }],
       temperature: 0.2,
-      max_completion_tokens: 300,
+      reasoning_effort: "low", // gpt-oss models spend tokens on hidden reasoning; keep this low so it doesn't eat the visible-answer budget
+      max_completion_tokens: 600, // raised from 300 — certificate/project lists need more room to finish
       stream: false,
     }),
   });
