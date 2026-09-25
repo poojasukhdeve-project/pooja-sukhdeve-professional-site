@@ -1,3 +1,13 @@
+// PortfolioData.js
+// FACTS ONLY. Behavior and tone rules live in `systemPrompt` at the bottom.
+//
+// TODO (optional, only you know these): add a "Key Learning" line for
+// your hardest project, and add availability / relocation / work
+// authorization to the "NOT PROVIDED" section once you decide what to share.
+//
+// WARNING: this is a JavaScript template string. Do not type a backtick
+// or the characters dollar-brace anywhere inside the text below.
+
 const portfolioData = `
 
 ==================================================
@@ -14,7 +24,6 @@ Graduated: May 2026
 GPA: 3.59/4.00
 
 Professional Summary:
-
 Pooja Sukhdeve is a Computer Science graduate from Boston University (M.S., GPA: 3.59/4.00) with hands-on experience in Full Stack Development, Artificial Intelligence, Machine Learning, and Data Analytics.
 
 Her experience spans academic, research, and industry projects involving healthcare, finance, natural language processing (NLP), and business intelligence. She has developed full-stack web applications, machine learning models, analytics dashboards, and AI-powered systems using technologies including Python, SQL, React, Node.js, PyTorch, Scikit-learn, SHAP, Power BI, AWS, Docker, and OpenAI APIs.
@@ -24,63 +33,126 @@ Her portfolio showcases projects such as an AI-powered restaurant analytics dash
 Pooja is passionate about building intelligent, scalable, and data-driven solutions and is currently seeking opportunities in Software Engineering, Full Stack Development, AI Engineering, Machine Learning Engineering, and Data Analytics.
 
 Areas of Expertise:
-
-Full Stack Development
-Artificial Intelligence & Machine Learning
-Data Analytics & Business Intelligence
-Cloud Computing & Scalable Applications
-Data Visualization & Predictive Analytics
+- Full Stack Development
+- Artificial Intelligence and Machine Learning
+- Data Analytics and Business Intelligence
+- Cloud Computing and Scalable Applications
+- Data Visualization and Predictive Analytics
 
 Target Roles:
+- Software Engineer
+- Full Stack Developer
+- AI Engineer
+- Machine Learning Engineer
+- Data Analyst
 
-Software Engineer
-Full Stack Developer
-AI Engineer
-Machine Learning Engineer
-Data Analyst
+==================================================
+HIGHLIGHTS (use for: why hire, strongest skill, best fit, quick pitch, summary)
+==================================================
 
-Core Skills:
+Strongest area:
+Full-stack development combined with AI/ML integration.
+
+Best fit:
+Equally strong for Software Engineer and AI/ML roles. Strongest where a role combines full-stack engineering with AI or data work.
+
+Best example by area:
+- Full stack: CareVault (Next.js, TypeScript, Supabase, role-based access, deployed on Vercel)
+- AI / LLM: Chatalogue (RAG chatbot) and her ASVI Systems chatbot and RAG pipeline work
+- Machine learning: BRFSS Healthcare Predictive Analytics (36 models evaluated, best 84.3% accuracy)
+- Data analytics: Netflix Tableau dashboard, Adidas Excel dashboard, and Power BI dashboards at Tech Zenesis
+- Most unique project: Exoplanet Detection using SHAP (explainable AI on astronomical data)
+
+Measurable results from her work:
+- ASVI Systems: improved retrieval accuracy by 20%, cut manual search time by 40%, cut chatbot latency by 25%, cut deployment time by 30%
+- BU IS&T: cut monthly reporting time by 40% and data errors by 30%
+- Interbeing Foundation: apps served 10,000+ users with 99.9% uptime, page load times cut by 45%
+- BRFSS project: 84.3% accuracy across 36 evaluated models
+
+Teamwork evidence:
+- Aperiohub: collaborates with Business Quality, Market Sizing, and Risk teams, and coordinates four cross-functional workstreams
+- Interbeing Foundation: led feature development in Agile sprints, took part in code reviews and pair programming across 100+ pull requests
+- Boston University: works with faculty and researchers to design and test accessible learning tools
+- GlobalShala: collaborated on 5+ research and analytics initiatives
+
+Recognition:
+- 1st place, Boston University ABA@BU Hackathon 2024 (Team Blue Whale, Business Case Analysis)
+
+==================================================
+CORE SKILLS
+==================================================
 
 Frontend:
-React.js, Next.js, JavaScript, TypeScript, HTML5, CSS3, Tailwind CSS
+React.js, Next.js, JavaScript, TypeScript, HTML5, CSS3, Tailwind CSS, jQuery
 
 Backend:
-Node.js, Express.js, Python, Flask, REST APIs, JWT Authentication
+Node.js, Express.js, Python, Flask, Django, REST APIs, JWT Authentication, PHP
 
 Databases:
-MongoDB, PostgreSQL, MySQL, SQL, Supabase
+MongoDB, PostgreSQL, MySQL, SQL, SQLite, Supabase
 
-Artificial Intelligence & Machine Learning:
-Machine Learning, NLP, LLMs, Hugging Face, OpenAI APIs, PyTorch, Scikit-Learn, Random Forest, XGBoost, SHAP, LangChain, RAG, Embeddings, Vector Databases, Ollama
+Artificial Intelligence and Machine Learning:
+Machine Learning, NLP, LLMs, Hugging Face, OpenAI APIs, PyTorch, Scikit-Learn, Random Forest, XGBoost, SHAP, LangChain, RAG, Embeddings, Vector Databases, Ollama, spaCy, SentenceTransformers
 
-Data Analytics & Visualization:
-Power BI, Tableau, Excel, VBA, Pandas, NumPy, Data Visualization
+Data Analytics and Visualization:
+Power BI, Tableau, Excel, VBA, Pandas, NumPy, Matplotlib, Data Visualization
 
-Cloud & DevOps:
+Cloud and DevOps:
 AWS, Docker, Git, GitHub, GitHub Actions, CI/CD
+
+Other Languages and Tools:
+R (ggplot2, caret), Java (Android SDK), LaTeX/Overleaf, JUnit, Espresso, Agile
+
+Not listed anywhere in her portfolio:
+C++
+
+==================================================
+WHERE SKILLS WERE USED (evidence)
+==================================================
+
+Python: Restaurant Analytics Dashboard, TextNova, Chatalogue, Exoplanet Detection, SPY ETF, NVIDIA forecasting, plus ASVI Systems, Tech Zenesis, GlobalShala, and Boston University roles
+SQL: Tech Zenesis and GlobalShala (complex queries, CTEs, window functions), Oceans Software Technologies (MySQL), Chatalogue (SQLite), CareVault and Wallet Wizard (PostgreSQL via Supabase)
+R: BRFSS Healthcare Predictive Analytics
+Java: SSIT Pvt Ltd (Android development trainee)
+React / Next.js: CareVault, Wallet Wizard, Stock Portfolio Manager, Stock Momentum Analyzer, and ASVI Systems
+AWS and Docker: ASVI Systems internship (deployed AI full-stack apps with Docker, GitHub, and CI/CD), plus AWS Academy Cloud Foundations certificate
+LLMs and RAG: Chatalogue, ASVI Systems chatbots and RAG pipelines, TextNova
+Power BI: dashboards at Tech Zenesis (5+) and GlobalShala (3+)
+Tableau: Netflix Content Analytics dashboard, and charts at GlobalShala
+Excel and VBA: Adidas Sales Dashboard and BU IS&T reporting work
 
 ==================================================
 PROJECT SUMMARY
 ==================================================
 
 Total Projects:
-13+ Software Engineering, AI, Machine Learning, and Data Analytics Projects
+13 Software Engineering, AI, Machine Learning, and Data Analytics Projects
 
 Domains:
 - Full Stack Development
 - Healthcare Technology
-- Financial Analytics & Quantitative Finance
-- Artificial Intelligence & Machine Learning
+- Financial Analytics and Quantitative Finance
+- Artificial Intelligence and Machine Learning
 - Natural Language Processing (NLP)
-- Data Analytics & Business Intelligence
-
-Primary Technologies:
-React, Next.js, Node.js, Python, Flask, MongoDB,
-PostgreSQL, Supabase, AWS, Machine Learning,
-OpenAI APIs, Hugging Face, Tableau, Power BI
+- Data Analytics and Business Intelligence
 
 Project Categories (as filterable on the live site):
-Full-Stack, AI & ML, Quant Finance, Data Analytics
+Full-Stack, AI and ML, Quant Finance, Data Analytics
+
+Category membership:
+- Full-Stack: CareVault, Wallet Wizard, Stock Portfolio Manager, Stock Momentum Analyzer, AI Restaurant Analytics Dashboard
+- AI and ML: TextNova, Chatalogue, Exoplanet Detection, BRFSS Healthcare Predictive Analytics
+- Quant Finance: SPY ETF Trading Strategy, NVIDIA Stock Forecasting
+- Data Analytics: Netflix Dashboard, Adidas Dashboard, BRFSS, AI Restaurant Analytics Dashboard
+
+Projects that used real-world datasets:
+AI Restaurant Analytics Dashboard (Zomato India data), BRFSS Healthcare Predictive Analytics (CDC BRFSS data), SPY ETF Strategy (historical SPY data), NVIDIA Forecasting (historical NVIDIA prices), Netflix Dashboard (Netflix content library), Adidas Dashboard (Adidas retail sales data), Exoplanet Detection (astronomical datasets)
+
+Projects with a live deployed app:
+CareVault (Vercel), Wallet Wizard (Vercel), AI Restaurant Analytics Dashboard (Render)
+
+Projects with a demo video only:
+Stock Portfolio Manager, TextNova AI Generator, Stock Momentum Analyzer
 
 ==================================================
 PROJECTS
@@ -88,17 +160,19 @@ PROJECTS
 
 1. CareVault — Full Stack Healthcare Management Platform
 
+Also known as: CareVault, the healthcare platform, the caregiver app
+
 Description:
 Developed a secure full-stack healthcare management platform designed to streamline caregiver and patient interactions. The system enables appointment scheduling, patient record management, medical document storage, and role-based access control while ensuring data security and scalability.
 
 Technologies:
-Next.js
-React.js
-TypeScript
-Supabase
-PostgreSQL
-Tailwind CSS
-Vercel
+Next.js, React.js, TypeScript, Supabase, PostgreSQL, Tailwind CSS, Vercel
+
+Deployment:
+Vercel (live app)
+
+Not part of this project's stack:
+AWS, Docker, Power BI
 
 Features:
 - Secure user authentication
@@ -116,21 +190,24 @@ https://caregiver-app-project.vercel.app/login
 
 Slides:
 https://docs.google.com/presentation/d/1PDBpm4n-tayLSQcCOxdbHIa5fGXYE5A1/edit?rtpof=true&sd=true
+
 --------------------------------------------------
 
-2. Wallet Wizard — Expense Tracking & Analytics System
+2. Wallet Wizard — Expense Tracking and Analytics System
+
+Also known as: Wallet Wizard, the personal finance tracker
 
 Description:
 Built a full-stack personal finance management application that enables users to track expenses, manage categories, monitor spending habits, and visualize financial data through interactive dashboards. The platform provides secure authentication and real-time financial insights.
 
 Technologies:
-Next.js
-React.js
-TypeScript
-Supabase
-PostgreSQL
-Tailwind CSS
-Vercel
+Next.js, React.js, TypeScript, Supabase, PostgreSQL, Tailwind CSS, Vercel
+
+Deployment:
+Vercel (live app)
+
+Not part of this project's stack:
+Power BI, Tableau, AWS. The dashboards are built inside the Next.js app itself.
 
 Features:
 - Expense tracking
@@ -139,6 +216,9 @@ Features:
 - Secure authentication
 - Real-time transaction management
 - Financial reporting and visualization
+
+Program:
+Built as an 8-week Build Fellowship project with Open Avenues Foundation (April 2026), mentored by Parug Demircioglu.
 
 GitHub:
 https://github.com/poojasukhdeve-project/Wallet-Wizard
@@ -153,18 +233,16 @@ https://docs.google.com/presentation/d/1SXsRt1TiRJViySR42xzmJ4hW_59astHi/edit?rt
 
 3. Stock Portfolio Manager
 
+Also known as: the MERN portfolio dashboard
+
 Description:
 Developed a scalable MERN-stack financial portfolio management platform that enables users to monitor investments, analyze portfolio performance, and manage stock holdings through a secure and interactive dashboard.
 
 Technologies:
-React.js
-Node.js
-Express.js
-MongoDB
-JWT Authentication
-REST APIs
-Axios
-React Router
+React.js, Node.js, Express.js, MongoDB, JWT Authentication, REST APIs, Axios, React Router
+
+Deployment:
+No live deployment listed. Demo video available.
 
 Features:
 - Portfolio tracking
@@ -178,26 +256,26 @@ Features:
 GitHub:
 https://github.com/poojasukhdeve-project/stock-portfolio-manager
 
-Live Demo:
+Demo Video (YouTube):
 https://www.youtube.com/watch?v=WiU-whS36ms&feature=youtu.be
 
 --------------------------------------------------
 
 4. AI Powered Restaurant Analytics Dashboard
 
+Also known as: AI restaurant analytics dashboard, the Zomato dashboard
+
 Description:
 Developed a full-stack AI-powered restaurant analytics platform that analyzes Zomato India restaurant data to uncover customer preferences, cuisine trends, ratings, budgets, and business insights. Integrated conversational AI capabilities and interactive visualizations to support data-driven decision making.
 
 Technologies:
-Python
-Flask
-JavaScript
-Chart.js
-HTML5
-CSS3
-Hugging Face Inference API
-REST API
-Machine Learning
+Python, Flask, JavaScript, Chart.js, HTML5, CSS3, Hugging Face Inference API, REST API, Machine Learning
+
+Deployment:
+Render (live app)
+
+Not part of this project's stack:
+React, Node.js, Express, JWT, Supabase, PostgreSQL, Power BI, SQL, AWS, Docker. It is a Python and Flask app with a Chart.js front end.
 
 Features:
 - Restaurant analytics dashboard
@@ -208,30 +286,32 @@ Features:
 - AI-powered restaurant assistant
 - Business intelligence reporting
 
-GitHub: 
+GitHub:
 https://github.com/poojasukhdeve-project/ai-restaurant-analytics-dashboard
 
-Live Demo:  
+Live Demo:
 https://ai-restaurant-analytics-dashboard.onrender.com/
 
 --------------------------------------------------
 
 5. TextNova AI Generator
 
+Also known as: TextNova, the GPT-style text generator
+
 Description:
 Built a GPT-style AI text generation platform leveraging transformer-based language models to generate human-like text responses. Implemented advanced NLP techniques including temperature-controlled generation, Top-k sampling, Top-p sampling, and prompt-based text completion.
 
+How it works:
+A small transformer language model (nanoGPT, built on PyTorch) generates text one token at a time from a user prompt. A Flask backend serves the model, and an HTML, CSS, and JavaScript web interface lets users type a prompt and get a completion in real time. Users can control how creative or predictable the output is with temperature, Top-k, and Top-p sampling settings.
+
+Key learning:
+Sampling settings change output style a lot. Lower temperature gives safer, more predictable text, while higher temperature and wider Top-k or Top-p give more varied text.
+
 Technologies:
-Python
-PyTorch
-Flask
-nanoGPT
-NLP
-Transformer Architecture
-Machine Learning
-HTML5
-CSS3
-JavaScript
+Python, PyTorch, Flask, nanoGPT, NLP, Transformer Architecture, Machine Learning, HTML5, CSS3, JavaScript
+
+Deployment:
+No live deployment listed. Demo video available.
 
 Features:
 - AI-powered text generation
@@ -243,10 +323,13 @@ Features:
 - Interactive web interface
 - Real-time text generation
 
+Program:
+Built as an 8-week Build Fellowship project with Open Avenues Foundation (May 2026), mentored by Uttara Ravi.
+
 GitHub:
 https://github.com/poojasukhdeve-project/TextNova-AI-Generator
 
-Live Demo:
+Demo Video (YouTube):
 https://www.youtube.com/watch?v=sKb2l6baH-8&feature=youtu.be
 
 Slides:
@@ -256,20 +339,16 @@ https://docs.google.com/presentation/d/15RdRM0zOy5aud3lV21xDsrAaHgj7Kt4L/edit
 
 6. Chatalogue — University Course Assistant Chatbot
 
+Also known as: Chatalogue, the university course assistant chatbot
+
 Description:
 Developed an AI-powered academic assistant chatbot designed to provide course information, instructor lookup, classroom details, and university-related assistance. Integrated semantic search, NLP pipelines, SQL query generation, and LLM-powered responses to improve student support and information retrieval.
 
 Technologies:
-Python
-spaCy
-SentenceTransformers
-SQLite
-OpenAI API
-GPT-4.1-mini
-NLP
-Machine Learning
-SQL
-RAG
+Python, spaCy, SentenceTransformers, SQLite, OpenAI API, GPT-4.1-mini, NLP, Machine Learning, SQL, RAG
+
+Deployment:
+No live deployment listed.
 
 Features:
 - Course lookup
@@ -288,19 +367,16 @@ https://github.com/poojasukhdeve-project/CHATALOGUE-main
 
 7. Exoplanet Detection using SHAP
 
+Also known as: the exoplanet project, explainable AI project
+
 Description:
 Developed an explainable AI and machine learning solution for exoplanet detection using astronomical datasets. Built predictive models to identify planetary candidates and leveraged SHAP (SHapley Additive Explanations) to interpret model predictions, improving transparency and trust in machine learning outcomes.
 
 Technologies:
-Python
-Scikit-Learn
-Pandas
-SHAP
-Random Forest
-Decision Trees
-Gradient Boosting
-Machine Learning
-Data Visualization
+Python, Scikit-Learn, Pandas, SHAP, Random Forest, Decision Trees, Gradient Boosting, Machine Learning, Data Visualization
+
+Deployment:
+No live deployment listed.
 
 Features:
 - Exoplanet candidate detection
@@ -312,9 +388,7 @@ Features:
 - Scientific data analysis
 
 Models Used:
-- Random Forest
-- Decision Tree
-- Gradient Boosting
+Random Forest, Decision Tree, Gradient Boosting
 
 GitHub:
 https://github.com/poojasukhdeve-project/Exoplanet-Data-Visualization-and-Analysis-with-SHAP
@@ -323,20 +397,16 @@ https://github.com/poojasukhdeve-project/Exoplanet-Data-Visualization-and-Analys
 
 8. BRFSS Healthcare Predictive Analytics
 
+Also known as: the disease-risk prediction model, BRFSS project, healthcare predictive analytics
+
 Description:
 Developed a healthcare predictive analytics platform using the CDC BRFSS (Behavioral Risk Factor Surveillance System) dataset to identify disease risk factors and improve predictive healthcare insights. Applied machine learning, statistical modeling, feature engineering, and explainable AI techniques to evaluate multiple classification algorithms.
 
 Technologies:
-R
-Machine Learning
-Random Forest
-XGBoost
-KNN
-Logistic Regression
-SHAP
-ggplot2
-caret
-Statistical Analysis
+R, Machine Learning, Random Forest, XGBoost, KNN, Logistic Regression, SHAP, ggplot2, caret, Statistical Analysis
+
+Deployment:
+No live deployment listed. It is an analysis project.
 
 Features:
 - Disease risk prediction
@@ -349,12 +419,9 @@ Features:
 - Model comparison and evaluation
 
 Models Used:
-- Random Forest
-- K-Nearest Neighbors (KNN)
-- XGBoost
-- Logistic Regression
+Random Forest, K-Nearest Neighbors (KNN), XGBoost, Logistic Regression
 
-Achievements: 
+Achievements:
 - Evaluated 36 classification models
 - Best model achieved 84.3% accuracy
 - Identified significant disease risk factors
@@ -367,18 +434,16 @@ https://github.com/poojasukhdeve-project/BRFSS-Data-Analytics-Exploring-Health-P
 
 9. Stock Momentum Analyzer
 
+Also known as: the momentum dashboard, stock analytics tool
+
 Description:
 Developed a full-stack financial analytics platform for monitoring stock market momentum and investment performance. The dashboard provides technical indicator analysis, comparative market insights, and interactive visualizations to help users evaluate market trends and investment opportunities.
 
 Technologies:
-React.js
-Node.js
-Express.js
-MongoDB
-Mongoose
-Recharts
-Axios
-CSS
+React.js, Node.js, Express.js, MongoDB, Mongoose, Recharts, Axios, CSS
+
+Deployment:
+No live deployment listed. Demo video available.
 
 Features:
 - Stock momentum tracking
@@ -393,25 +458,23 @@ Features:
 GitHub:
 https://github.com/poojasukhdeve-project/stock_momentum_analyzer
 
-Live Demo:
+Demo Video (YouTube):
 https://www.youtube.com/watch?v=hE3j8tyRmgg&feature=youtu.be
-
 
 --------------------------------------------------
 
 10. SPY ETF Machine Learning Trading Strategy
 
+Also known as: SPY project, ETF trading strategy, one of her quantitative finance projects
+
 Description:
 Developed an end-to-end machine learning trading strategy using historical SPY ETF market data to evaluate whether predictive models can outperform traditional investment approaches. Built multiple machine learning models, engineered technical indicators, and performed backtesting to compare algorithmic trading strategies against Buy-and-Hold benchmarks.
 
 Technologies:
-Python
-Pandas
-NumPy
-Scikit-Learn
-Matplotlib
-Machine Learning
-Quantitative Finance
+Python, Pandas, NumPy, Scikit-Learn, Matplotlib, Machine Learning, Quantitative Finance
+
+Deployment:
+No live deployment listed. It is an analysis project.
 
 Features:
 - ETF market analysis
@@ -424,34 +487,34 @@ Features:
 - Financial data visualization
 
 Models Used:
-- Linear Regression
-- Random Forest Regressor
+Linear Regression, Random Forest Regressor
 
 Key Results:
 - Random Forest achieved an 8.60% cumulative return
 - Buy-and-Hold strategy delivered a 24.99% cumulative return
 - Achieved a Sharpe Ratio of 1.897
-- Demonstrated practical evaluation of ML-driven trading systems
+- The ML strategy did not beat Buy-and-Hold on total return
+
+Key learning:
+The project's value is the honest, rigorous evaluation: building the full backtesting framework and benchmarking the model against Buy-and-Hold, including reporting where it fell short. Always present both the strategy return and the benchmark together.
 
 GitHub:
 https://github.com/poojasukhdeve-project/SPY-ETF-Machine-Learning-Trading-Strategy
 
 --------------------------------------------------
 
-11. NVIDIA Stock Price Forecasting & Machine Learning Trading Strategy
+11. NVIDIA Stock Price Forecasting and Machine Learning Trading Strategy
+
+Also known as: NVIDIA project, stock price forecasting, one of her quantitative finance projects
 
 Description:
 Built a machine learning and time-series forecasting system to predict NVIDIA stock prices using historical market data. Implemented multiple forecasting models, evaluated predictive accuracy, and integrated trading strategy backtesting to assess real-world investment applications.
 
 Technologies:
-Python
-Pandas
-NumPy
-Scikit-Learn
-XGBoost
-Matplotlib
-Machine Learning
-Time Series Forecasting
+Python, Pandas, NumPy, Scikit-Learn, XGBoost, Matplotlib, Machine Learning, Time Series Forecasting
+
+Deployment:
+No live deployment listed. It is an analysis project.
 
 Features:
 - Stock price forecasting
@@ -464,39 +527,31 @@ Features:
 - Financial forecasting dashboard
 
 Models Used:
-- Linear Regression
-- Random Forest
-- XGBoost
-- ARIMA
-- SARIMA
-- SARIMAX
+Linear Regression, Random Forest, XGBoost, ARIMA, SARIMA, SARIMAX
 
 Key Results:
 - Linear Regression achieved best performance
-- R² = 0.9975
-- MAE = 1.05
-- RMSE = 1.40
-- Developed next-day stock price prediction system
+- R-squared = 0.9975, MAE = 1.05, RMSE = 1.40
+- Developed a next-day stock price prediction system
+- Note: these scores are for next-day price level prediction, where high R-squared is common because prices change gradually. They are not a claim of a guaranteed trading edge.
 
 GitHub:
 https://github.com/poojasukhdeve-project/NVIDIA-Stock-Price-Prediction-and-Time-Series-Forecasting-using-Machine-Learning
 
-
 --------------------------------------------------
 
-12. Netflix Content Analytics & Visualization Dashboard using Tableau
+12. Netflix Content Analytics and Visualization Dashboard using Tableau
+
+Also known as: Netflix dashboard, Tableau dashboard
 
 Description:
 Developed an interactive Tableau-based business intelligence dashboard to analyze Netflix's global content library. The dashboard provides insights into content distribution, genres, ratings, countries, release trends, and content types through choropleth maps, bar charts, bubble charts, and area visualizations, enabling data-driven content analysis and storytelling.
 
 Technologies:
-Tableau
-Data Visualization
-Business Intelligence (BI)
-Dashboard Development
-Data Analytics
-Interactive Charts
-Data Storytelling
+Tableau, Data Visualization, Business Intelligence (BI), Dashboard Development, Data Analytics, Interactive Charts, Data Storytelling
+
+Deployment:
+No live deployment listed.
 
 Features:
 - Netflix content analysis
@@ -521,18 +576,16 @@ https://github.com/poojasukhdeve-project/Netflix-Data-Visualization-Dashboard-us
 
 13. Adidas Interactive Sales Analytics Dashboard
 
+Also known as: Adidas dashboard, Excel dashboard
+
 Description:
 Built an interactive Excel-based sales analytics dashboard to analyze Adidas retail performance across products, regions, sales channels, and time periods. Leveraged advanced Excel techniques, automation, and KPI reporting to provide actionable business insights for decision-making.
 
 Technologies:
-Microsoft Excel
-VBA
-Pivot Tables
-Data Visualization
-Business Intelligence (BI)
-KPI Analytics
-Dashboard Development
-Data Analysis
+Microsoft Excel, VBA, Pivot Tables, Data Visualization, Business Intelligence (BI), KPI Analytics, Dashboard Development, Data Analysis
+
+Deployment:
+No live deployment listed. It is an Excel workbook.
 
 Features:
 - Regional sales analysis
@@ -558,65 +611,41 @@ PROJECTS BY TECHNOLOGY
 ==================================================
 
 React Projects:
-- CareVault
-- Wallet Wizard
-- Stock Portfolio Manager
-- Stock Momentum Analyzer
+CareVault, Wallet Wizard, Stock Portfolio Manager, Stock Momentum Analyzer
 
 Python Projects:
-- AI Powered Restaurant Analytics Dashboard
-- TextNova AI Generator
-- Chatalogue
-- Exoplanet Detection using SHAP
-- BRFSS Healthcare Predictive Analytics
-- SPY ETF Machine Learning Trading Strategy
-- NVIDIA Stock Price Forecasting
+AI Powered Restaurant Analytics Dashboard, TextNova AI Generator, Chatalogue, Exoplanet Detection using SHAP, SPY ETF Machine Learning Trading Strategy, NVIDIA Stock Price Forecasting
+
+R Projects:
+BRFSS Healthcare Predictive Analytics
 
 Machine Learning Projects:
-- TextNova AI Generator
-- Exoplanet Detection using SHAP
-- BRFSS Healthcare Predictive Analytics
-- SPY ETF Machine Learning Trading Strategy
-- NVIDIA Stock Price Forecasting
+TextNova AI Generator, Exoplanet Detection using SHAP, BRFSS Healthcare Predictive Analytics, SPY ETF Machine Learning Trading Strategy, NVIDIA Stock Price Forecasting
+
+LLM / RAG Projects:
+Chatalogue, TextNova AI Generator, AI Restaurant Analytics Dashboard (conversational assistant)
 
 Data Visualization Projects:
-- Netflix Analytics Dashboard
-- Adidas Sales Dashboard
-- AI Powered Restaurant Analytics Dashboard
-- Stock Momentum Analyzer
+Netflix Analytics Dashboard, Adidas Sales Dashboard, AI Powered Restaurant Analytics Dashboard, Stock Momentum Analyzer
 
 ==================================================
 PROJECTS BY ROLE
 ==================================================
 
 Software Engineer:
-- CareVault
-- Wallet Wizard
-- Stock Portfolio Manager
-- Stock Momentum Analyzer
+CareVault, Wallet Wizard, Stock Portfolio Manager, Stock Momentum Analyzer
 
 Full Stack Developer:
-- CareVault
-- Wallet Wizard
-- Stock Portfolio Manager
-- AI Restaurant Analytics Dashboard
+CareVault, Wallet Wizard, Stock Portfolio Manager, AI Restaurant Analytics Dashboard (Python/Flask full stack)
 
 AI Engineer:
-- TextNova AI Generator
-- Chatalogue
-- AI Restaurant Analytics Dashboard
+TextNova AI Generator, Chatalogue, AI Restaurant Analytics Dashboard
 
 Machine Learning Engineer:
-- SPY ETF Machine Learning Trading Strategy
-- NVIDIA Stock Price Forecasting
-- BRFSS Healthcare Predictive Analytics
-- Exoplanet Detection using SHAP
+SPY ETF Machine Learning Trading Strategy, NVIDIA Stock Price Forecasting, BRFSS Healthcare Predictive Analytics, Exoplanet Detection using SHAP
 
 Data Analyst:
-- Netflix Analytics Dashboard
-- Adidas Sales Dashboard
-- BRFSS Healthcare Predictive Analytics
-- Stock Momentum Analyzer
+Netflix Analytics Dashboard, Adidas Sales Dashboard, BRFSS Healthcare Predictive Analytics, Stock Momentum Analyzer
 
 ==================================================
 WORK EXPERIENCE
@@ -625,7 +654,7 @@ WORK EXPERIENCE
 Business Analyst Intern - Team Coordinator
 
 Aperiohub
-Sept 2026 – Ongoing
+Sept 2026 – Ongoing (current role)
 
 Responsibilities:
 - Coordinate data tracking and reporting across 4 cross-functional workstreams, consolidating deliverables and synthesizing analytical findings to support data-driven project decision-making.
@@ -644,7 +673,7 @@ Data Analysis, Financial Analysis, Financial Modeling, Quantitative Analysis, Va
 Data Research Analyst
 
 Boston University
-Sept 2024 – Ongoing
+Sept 2024 – Ongoing (current role)
 
 Responsibilities:
 - Develop and structure Python programming exercises and coding activities involving 1,000+ lines of code, applying data-driven learning approaches to improve conceptual understanding for visually impaired and non-traditional learners.
@@ -659,7 +688,7 @@ Python, Data Visualization, Accessibility Research, Technical Documentation, Cur
 
 Operations Analyst
 
-Boston University Information Services & Technology (IS&T)
+Boston University Information Services and Technology (IS&T)
 May 2024 – Oct 2025
 
 Responsibilities:
@@ -672,7 +701,7 @@ Excel, Outlook, Workflow Automation, Technical Support
 
 --------------------------------------------------
 
-Software Developer Intern - AI & Full Stack
+Software Developer Intern - AI and Full Stack
 
 ASVI Systems
 May 2025 – Aug 2025
@@ -745,7 +774,7 @@ Python, JavaScript, React.js, Node.js, SQL, MongoDB, Git, RESTful APIs, Data Ana
 
 --------------------------------------------------
 
-Software Developer & Data Analyst
+Software Developer and Data Analyst
 
 Oceans Software Technologies
 Apr 2018 – Mar 2020
@@ -770,7 +799,7 @@ SSIT Pvt Ltd
 Jun 2016 – Jun 2017
 
 Responsibilities:
-- Developed Android and iOS applications using Java and Android SDK.
+- Developed Android applications using Java and the Android SDK.
 - Implemented RESTful APIs and optimized performance using SQLite databases.
 - Maintained code quality and version control using Git, JUnit, and Espresso.
 
@@ -778,7 +807,7 @@ Technologies:
 Java, Android SDK, SQLite, REST APIs, Git
 
 ==================================================
-CERTIFICATES
+CERTIFICATES AND AWARDS
 ==================================================
 
 1. Boston University Hackathon 2024 — Winner (1st Place)
@@ -970,7 +999,7 @@ Available in the Contact section of this website.
 RESUMES
 ==================================================
 
-Pooja maintains role-specific resumes tailored to different career opportunities.
+Role-specific resumes are available:
 
 Software Engineer Resume:
 https://drive.google.com/file/d/1KMszxUT33XuDJSaTeCLNkh3eZxfehjnE/view?usp=sharing
@@ -984,7 +1013,50 @@ https://drive.google.com/file/d/1AdZdIcmlB3mqF_o0taEPLEiC1aZc15hE/view?usp=shari
 Data Analyst Resume:
 https://drive.google.com/file/d/1Wh93ANUdYzK8Zx3pT9aF77A_XOOafvZL/view?usp=sharing
 
-If a visitor asks for a resume, provide the resume link that best matches the requested role. If no specific role is mentioned, ask whether they would like the Software Engineer, AI Engineer, Machine Learning Engineer, or Data Analyst resume.
+==================================================
+NOT PROVIDED IN THIS PORTFOLIO (do not guess these)
+==================================================
+
+The following are not in the portfolio: availability or start date, relocation or remote preference, work authorization or visa status, salary expectations, phone number, home address, C++ experience, any employer not listed under WORK EXPERIENCE (for example Google), which project was hardest, and any startup ideas or business plans.
+
+For any of these, say what related information is known, then point to her email (poojasukhdeve06@gmail.com), LinkedIn, or the portfolio contact form. Never share a phone number or address.
 
 `;
+
+// Behavior rules for the chatbot. Use this as the system prompt, and send
+// portfolioData as the context (or only the relevant sections of it).
+export const systemPrompt = `
+You are the assistant on Pooja Sukhdeve's portfolio website. You talk to recruiters, hiring managers, and peers. Sound like a warm, confident, well-informed colleague introducing her.
+
+STYLE
+- Default to 2-4 sentences of natural prose. Use bullets only if the user asks for a list or there are 4 or more parallel items.
+- Lead with the most relevant point, not a full inventory. Mention only 2-3 tools per project.
+- Keep answers to one topic. Do not add unrelated projects or skills.
+- End with one short, relevant follow-up offer when it helps. Do not repeat the same follow-up twice in a row.
+
+ACCURACY
+- Use ONLY the provided portfolio data. Never invent features, links, employers, plans, or results.
+- Never mix details between projects. Check the "Not part of this project's stack" and "Deployment" lines before describing a project.
+- Report results honestly. When you mention a trading strategy result, include the Buy-and-Hold benchmark if it is in the data.
+- You do not know who the user is or what their company needs. Do not assume.
+- For "why hire", "strongest skill", "best fit", "pitch", or "summary" questions, use the HIGHLIGHTS section and stay within documented facts.
+- Do not treat a demo video as a live deployed app.
+
+MISSING INFORMATION
+- If something is not in the data, say what you do know that is related, then point to her email (poojasukhdeve06@gmail.com), LinkedIn, or the portfolio contact form. Vary your wording and never just say the information is unavailable. Never share a phone number or address.
+
+RESUMES
+- If a visitor asks for a resume, give the link that best matches the role they name. If no role is named, ask whether they want the Software Engineer, AI Engineer, Machine Learning Engineer, or Data Analyst resume.
+
+EXAMPLES OF THE VOICE
+Q: Tell me about her projects.
+A: A few stand out. CareVault is a full-stack healthcare platform with role-based access and appointment scheduling, and Wallet Wizard is a finance tracker with real-time dashboards. On the AI side, TextNova is a GPT-style text generator built with nanoGPT and Flask. Are you more interested in her full-stack work, AI/ML, or data analytics?
+
+Q: Is she open to relocation?
+A: I don't have her relocation or remote preferences, but she would be happy to talk it through. You can reach her at poojasukhdeve06@gmail.com or through the contact form on this site.
+
+Q: Which project shows her full-stack skills best?
+A: CareVault is the strongest example. It is built with Next.js, TypeScript, and Supabase, with secure authentication, role-based access, and appointment scheduling, and it is live on Vercel. Want a look at her MERN-stack work as well?
+`;
+
 export default portfolioData;
